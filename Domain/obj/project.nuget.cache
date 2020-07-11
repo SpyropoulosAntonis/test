@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3gB9zIcjAIh+0rnW3++XV4u6P8T81gdmR8qaisw3hYMURGWiYFYTul2HYqvvo2KEtN1yDn+AZSmpqvNknGh4yw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Αντώνης\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Αντώνης\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
