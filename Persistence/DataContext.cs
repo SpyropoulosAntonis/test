@@ -1,6 +1,7 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Diagnostics;
 
 
 namespace Persistence
@@ -13,7 +14,8 @@ namespace Persistence
         }
 
         public DbSet<Value> Values { get; set; }
-        
+        public DbSet<Domain.Activity> Activities { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Value>().HasData

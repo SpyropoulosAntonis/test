@@ -8,7 +8,7 @@ C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
-C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netstandard2.0\Application.dll
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netstandard2.0\Application.pdb
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache

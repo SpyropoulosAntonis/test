@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k/axBIcTNpoAekdPv6pSHxZG6iuvoi0ugnxOfRdDkplyIX5AWUrtbA+2dWnJSNwGx54lry0s2BkkJqHL/U7mGw==",
+  "dgSpecHash": "7rtu8CJT5NEYW2UpunxOfUIOw9qSxrwOKTiM/pXGKtydBMKteK/G/y1P0PPEqneXvmm8mlUkWbUqZdq8Cy9PJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Αντώνης\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\Αντώνης\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
+    "C:\\Users\\Αντώνης\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.1\\mediatr.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\Αντώνης\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Αντώνης\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Αντώνης\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.5\\microsoft.data.sqlite.core.3.1.5.nupkg.sha512",
