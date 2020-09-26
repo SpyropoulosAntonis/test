@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom';
-import { Image, Item, ItemContent, Label, List, Segment } from 'semantic-ui-react'
+import { Image, Item, Label, List, Segment } from 'semantic-ui-react'
 
 export const ActivityDetailedSidebar = () => {
     return (

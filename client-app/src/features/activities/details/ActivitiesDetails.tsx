@@ -1,8 +1,8 @@
 import React, { useContext, useEffect } from 'react'
-import { Card, Image, Button, Grid } from 'semantic-ui-react'
+import {Grid} from 'semantic-ui-react'
 import { observer } from 'mobx-react-lite'
 import activityStore from '../../../app/stores/activityStore'
-import { RouteComponentProps, Link } from 'react-router-dom'
+import { RouteComponentProps} from 'react-router-dom'
 import { LoadingComponent } from '../../../app/Layout/LoadingComponent'
 import { ActivityDetailedHeader } from './ActivityDetailedHeader'
 import { ActivityDetailedInfo } from './ActivityDetailedInfo'
@@ -22,7 +22,10 @@ const ActivitiesDetails: React.FC<RouteComponentProps<Iprops>> = (p) => {
 
   }, [loadActivity, p.match.params.id])
 
-  if (loadingInitial || !selectedActivity) return <LoadingComponent content='Loading Details...' />
+  if (loadingInitial ) return <LoadingComponent content='Loading Details...' />
+  
+  if( !selectedActivity) return <h1>Activity not found</h1>
+  
   return (
     <Grid>
       <Grid.Column width='10' >

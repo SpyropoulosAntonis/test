@@ -3,15 +3,25 @@ import ReactDOM from 'react-dom';
 import './app/Layout/styles.css';
 import App from './app/Layout/App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './app/Layout/ScrollToTop';
+import { Router } from "react-router";
+import { createBrowserHistory } from "history";
+import 'react-toastify/dist/ReactToastify.min.css';
+import 'react-widgets/dist/css/react-widgets.css';
+import dateFnsLocalizer from 'react-widgets-date-fns';
+
+
+new dateFnsLocalizer();
+
+export const history =createBrowserHistory();
+
 
 ReactDOM.render(
-  <BrowserRouter>
-    <ScrollToTop>
+  <Router history={history}>
+   <ScrollToTop>
       <App />
-    </ScrollToTop>
-  </BrowserRouter>,
+   </ScrollToTop>
+  </Router>,
   document.getElementById('root')
 );
 
