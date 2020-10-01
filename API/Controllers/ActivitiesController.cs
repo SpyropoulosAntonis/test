@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Application.Activities;
 using Domain;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Update.Internal;
@@ -29,6 +30,7 @@ namespace API.Controllers
         }
 
         [HttpGet("{id}")]
+       [Authorize]
         public async Task<ActionResult<Activity>> Details(Guid ID)
         {
             return await Mediator.Send(new Details.Query { Id = ID });

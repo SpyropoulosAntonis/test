@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Application.Errors;
+using Application.Interfaces;
 
 namespace Application.User
 {
@@ -36,11 +37,13 @@ namespace Application.User
         {
             private readonly UserManager<AppUsers> _usermanager;
             private readonly SignInManager<AppUsers> _signInManager;
+            private readonly IJwtGenerator _jwtGenerator;
 
-            public Handler(UserManager<AppUsers> usermanager, SignInManager<AppUsers> signInManager)
+            public Handler(UserManager<AppUsers> usermanager, SignInManager<AppUsers> signInManager,IJwtGenerator jwtGenerator)
             {
                 _usermanager = usermanager;
                 _signInManager = signInManager;
+                _jwtGenerator = jwtGenerator;
             }
             public async Task<User> Handle(Query request, CancellationToken cancellationToken)
             {
@@ -59,7 +62,7 @@ namespace Application.User
                         Username = user.UserName,
                         DisplayName = user.DisplayName,
                         Image = null,
-                        Token = "Token will create later"
+                        Token = _jwtGenerator.CreateToken(user)
                                     
                     };
                 }

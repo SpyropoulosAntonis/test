@@ -4,14 +4,95 @@
     "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\Infrastracture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\Infrastracture.csproj": {
+    "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\Infrastracture.csproj",
-        "projectName": "Infrastracture",
-        "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\Infrastracture.csproj",
+        "projectUniqueName": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Αντώνης\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\obj\\",
+        "outputPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Αντώνης\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.3, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Αντώνης\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Αντώνης\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +118,156 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\Infrastracture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\Infrastracture.csproj",
+        "projectName": "Infrastracture",
+        "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\Infrastracture.csproj",
+        "packagesPath": "C:\\Users\\Αντώνης\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Infrastracture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Αντώνης\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Αντώνης\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Αντώνης\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
