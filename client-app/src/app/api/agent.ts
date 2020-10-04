@@ -2,12 +2,25 @@ import axios, { AxiosResponse } from 'axios';
 import { toast } from 'react-toastify';
 import { history } from '../..';
 import { IActivity } from '../Models/activity';
+import { IUser, IUserFormaValue } from '../Models/User';
 
 
 
 axios.defaults.baseURL = 'https://localhost:44312/api/';
+
+axios.interceptors.request.use((config)=>
+{
+    const token = window.localStorage.getItem('jwt');
+    if (token) config.headers.Authorization= `Bearer ${token}`;
+    return config;
+}, error =>
+{
+    return Promise.reject(error);
+})
+
 axios.interceptors.response.use(undefined, (error) => {
     console.log(error);
+    
 
     if (error.message === 'Network Error' && !error.response) {
         toast.error("Network error")
@@ -28,7 +41,7 @@ axios.interceptors.response.use(undefined, (error) => {
         console.log('Toast');
     }
 
-    throw error;
+    throw error.response;
 });
 
 const reponseBody = (response: AxiosResponse) => response.data;
@@ -38,7 +51,10 @@ const sleep = (ms: number) => (response: AxiosResponse) =>
 
 const requests =
 {
-    get: (url: string) => axios.get(url).then(sleep(1000)).then(reponseBody),
+    get: (url: string) => axios.get(url,{
+        headers: {
+            'Content-Type': 'application/json; charset=UTF-8','Content-Length': 0
+        },data:{}}).then(sleep(1000)).then(reponseBody),
     post: (url: string, body: {}) => axios.post(url, body).then(sleep(1000)).then(reponseBody),
     put: (url: string, body: {}) => axios.put(url, body).then(sleep(1000)).then(reponseBody),
     del: (url: string) => axios.delete(url).then(sleep(1000)).then(reponseBody)
@@ -53,6 +69,13 @@ const Activities =
     delete: (id: string) => requests.del(`/activities/${id}`)
 }
 
+const User =
+{
+    current : ():Promise<IUser> => requests.get('user/'),
+    register : (user : IUserFormaValue) :Promise<IUser> => requests.post('user/register',user),
+    login : (user : IUserFormaValue):Promise<IUser> =>requests.post('user/login',user)
+}
+
 export default {
-    Activities
+    Activities,User
 }

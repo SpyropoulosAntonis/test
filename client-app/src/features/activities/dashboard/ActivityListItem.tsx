@@ -4,7 +4,7 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom';
 import { Button, Icon, Item,Segment } from 'semantic-ui-react'
 import { IActivity } from '../../../app/Models/activity';
-import activityStore from '../../../app/stores/activityStore';
+import { RootStoreContext } from '../../../app/stores/rootStore';
 
 interface Iprops {
     activities: IActivity;
@@ -12,8 +12,8 @@ interface Iprops {
 
 export const ActivityListItem: React.FC<Iprops> = ({ activities }) => {
 
-    const activitystore = useContext(activityStore);
-    const { deleteActivity, target, submiting } = activitystore;
+    const rootStore = useContext(RootStoreContext);
+    const { deleteActivity, target, submiting } = rootStore.activitiesStore;
     return (
         <Segment.Group>
             <Segment>

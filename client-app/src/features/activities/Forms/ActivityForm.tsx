@@ -2,7 +2,6 @@ import React, { useState, useContext, useEffect } from 'react'
 import { Segment, Form, Button, Grid } from 'semantic-ui-react'
 import { ActivityFormValues} from '../../../app/Models/activity'
 import { observer } from 'mobx-react-lite';
-import activityStore from '../../../app/stores/activityStore';
 import { RouteComponentProps } from 'react-router-dom';
 import { Form as FinalForm, Field } from 'react-final-form';
 import TextInput from '../../../app/common/form/TextInput';
@@ -13,6 +12,7 @@ import DateInput from '../../../app/common/form/DateInput';
 import { combineDateAndTime } from '../../../app/Util/Util';
 import { v4 as uuid } from 'uuid';
 import {combineValidators, composeValidators, hasLengthGreaterThan,isRequired} from 'revalidate';
+import { RootStoreContext } from '../../../app/stores/rootStore';
 
 
 
@@ -36,8 +36,8 @@ interface Iprops {
 }
 
 const ActivityForm: React.FC<RouteComponentProps<Iprops>> = (p) => {
-    const activitystore = useContext(activityStore);
-    const { submiting,createActivity, loadActivity,editActivity } = activitystore;
+    const rootStore = useContext(RootStoreContext);
+    const { submiting,createActivity, loadActivity,editActivity } = rootStore.activitiesStore;
     const [loading,setLoading]=useState(false);
     const [activity, setActivity] = useState(new ActivityFormValues());
 

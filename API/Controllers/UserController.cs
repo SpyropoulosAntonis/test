@@ -21,11 +21,11 @@ namespace API.Controllers
         {
             return await Mediator.Send(command);
         }
-
+        
         [HttpGet]
-        public async Task<ActionResult<User>> CurrentUser(CurrentUser.Query query)
+        public async Task<ActionResult<User>> CurrentUser() //CurrentUser.Query query Αν το βάλω έτσι τότε κάνει έλεγχο και θέλει να έχει CONTENT-TYPE KAI CONTENT-LENGTH
         {
-            return await Mediator.Send(query);
+            return await Mediator.Send(new CurrentUser.Query());
         }
 
 

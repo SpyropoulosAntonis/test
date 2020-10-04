@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "Api\API.csproj", "{5
 		{62305723-B654-4A50-8FB7-92426D27DFD6} = {62305723-B654-4A50-8FB7-92426D27DFD6}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastracture", "Infrastracture\Infrastracture.csproj", "{62305723-B654-4A50-8FB7-92426D27DFD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastracture", "Infrastracture\Infrastracture.csproj", "{62305723-B654-4A50-8FB7-92426D27DFD6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{779A45D9-2703-4BCD-B573-7E5CF882F617} = {779A45D9-2703-4BCD-B573-7E5CF882F617}
 	EndProjectSection
