@@ -19,20 +19,21 @@ namespace Persistence
 
                     new AppUsers
                     {
+                        Id="a",
                         DisplayName = "Bob",
                         UserName = "bob",
                         Email="bob@test.com"
                     },
 
                        new AppUsers
-                    {
+                    {   Id="b",
                         DisplayName = "Tom",
                         UserName = "tom",
                         Email="tom@test.com"
                     },
 
                        new AppUsers
-                    {
+                    {   Id="c",
                         DisplayName = "Jane",
                         UserName = "jane",
                         Email="jane@test.com"
@@ -44,7 +45,7 @@ namespace Persistence
 
                 foreach(var user in users)
                 {
-                    await usermanager.CreateAsync(user, "Pa$$w0rd");
+                    await usermanager.CreateAsync(user, "Antonis123.");
                 }
                 
 
@@ -63,6 +64,15 @@ namespace Persistence
                         Category = "Music",
                         City = "London",
                         Venue = "02 Arena",
+                        UserActivities = new List<UserActivity>
+                        {
+                            new UserActivity
+                            {
+                                AppUserId="a",
+                                IsHost= true,
+                                DateJoined =DateTime.Now.AddMonths(-2)
+                            }
+                        }
                     },
                      new Activity
                     {
@@ -72,6 +82,15 @@ namespace Persistence
                         Category = "culture",
                         City = "London",
                         Venue = "Natural History Museum",
+                         UserActivities = new List<UserActivity>
+                        {
+                            new UserActivity
+                            {
+                                AppUserId="b",
+                                IsHost= true,
+                                DateJoined =DateTime.Now.AddMonths(-2)
+                            }
+                        }
                     },
                       new Activity
                     {
@@ -81,6 +100,15 @@ namespace Persistence
                         Category = "culture",
                         City = "London",
                         Venue = "Natural History Museum",
+                         UserActivities = new List<UserActivity>
+                        {
+                            new UserActivity
+                            {
+                                AppUserId="c",
+                                IsHost= true,
+                                DateJoined =DateTime.Now.AddMonths(-2)
+                            }
+                        }
                     },
                        new Activity
                     {
@@ -90,6 +118,23 @@ namespace Persistence
                         Category = "culture",
                         City = "London",
                         Venue = "Natural History Museum",
+                         UserActivities = new List<UserActivity>
+                        {
+                            new UserActivity
+                            {
+                                AppUserId="a",
+                                IsHost= true,
+                                DateJoined =DateTime.Now.AddMonths(-2)
+                            },
+                            
+                            new UserActivity
+                            {
+                                AppUserId="b",
+                                IsHost= false,
+                                DateJoined =DateTime.Now.AddMonths(-2)
+                            }
+                        }
+                        
                     },
                         new Activity
                     {
@@ -99,6 +144,22 @@ namespace Persistence
                         Category = "culture",
                         City = "London",
                         Venue = "Natural History Museum",
+                         UserActivities = new List<UserActivity>
+                        {
+                            new UserActivity
+                            {
+                                AppUserId="b",
+                                IsHost= true,
+                                DateJoined =DateTime.Now.AddMonths(-2)
+                            },
+                            new UserActivity
+                            {
+                                AppUserId="c",
+                                IsHost= false,
+                                DateJoined =DateTime.Now.AddMonths(-2)
+                            }
+
+                        }
                     }
                 };
                 context.Activities.AddRange(activities);

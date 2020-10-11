@@ -6,7 +6,7 @@ C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csprojAssemblyReference.cache
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfoInputs.cache
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfo.cs
-C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CoreCompileInputs.cache
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CoreCompileInputs.cache

@@ -78,12 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -110,14 +104,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj"
@@ -135,8 +129,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[8.6.3, )"
@@ -169,11 +167,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -191,14 +189,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -209,7 +207,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -231,11 +229,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -253,14 +251,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Application\\Application.csproj"
@@ -275,7 +273,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -293,11 +291,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -315,14 +313,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj"
@@ -337,7 +335,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
@@ -348,6 +346,10 @@
               "version": "[3.1.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[3.1.8, )"
             },
@@ -371,11 +373,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

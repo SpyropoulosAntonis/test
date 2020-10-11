@@ -39,7 +39,7 @@ namespace Application.Activities
                 _context.Activities.Remove(activity);
 
                 var success = await _context.SaveChangesAsync() > 0;
-
+                
                 if (success) return Unit.Value;
 
                 throw new Exception("Problem saving changes");

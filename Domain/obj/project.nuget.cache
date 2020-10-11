@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tCl18HsAHlfEHjX2uDmm7xdOtcdnyTm9p7A+O+fdV/EYCJdBwowbRAm3KqV0Tmnx6fvugpVGhuIAMYHrp8BY5Q==",
+  "dgSpecHash": "ZWUCAsNWb4IxM40MOIdgzrHpxHH42hLuy1hcsHz/y6exIBOMKksxh0G280aJTOsX4Zsy5PtyXKKAJz1fx3TkGw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Αντώνης\\Desktop\\WebDebelopment\\Lessons\\Reactivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
@@ -26,14 +26,9 @@
     "C:\\Users\\Αντώνης\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\Αντώνης\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\Αντώνης\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
-    "C:\\Users\\Αντώνης\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Αντώνης\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\Αντώνης\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\Αντώνης\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "C:\\Users\\Αντώνης\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\Αντώνης\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
-    "C:\\Users\\Αντώνης\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
-    "C:\\Users\\Αντώνης\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\Αντώνης\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,6 @@
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\bin\Debug\netstandard2.1\Infrastracture.deps.json
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\bin\Debug\netstandard2.1\Infrastracture.dll
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\bin\Debug\netstandard2.1\Infrastracture.pdb
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\bin\Debug\netstandard2.1\Application.dll
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\bin\Debug\netstandard2.1\Domain.dll
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\bin\Debug\netstandard2.1\Persistence.dll
@@ -9,8 +10,7 @@ C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastractu
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\obj\Debug\netstandard2.1\Infrastracture.csprojAssemblyReference.cache
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\obj\Debug\netstandard2.1\Infrastracture.AssemblyInfoInputs.cache
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\obj\Debug\netstandard2.1\Infrastracture.AssemblyInfo.cs
-C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\obj\Debug\netstandard2.1\Infrastracture.csproj.CopyComplete
-C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\bin\Debug\netstandard2.1\Infrastracture.pdb
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\obj\Debug\netstandard2.1\Infrastracture.csproj.CoreCompileInputs.cache
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\obj\Debug\netstandard2.1\Infrastracture.csproj.CopyComplete
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\obj\Debug\netstandard2.1\Infrastracture.dll
 C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Infrastracture\obj\Debug\netstandard2.1\Infrastracture.pdb

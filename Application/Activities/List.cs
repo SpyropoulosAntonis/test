@@ -1,4 +1,5 @@
-﻿using Domain;
+﻿using AutoMapper;
+using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
@@ -12,20 +13,25 @@ namespace Application.Activities
 {
     public class List
     {
-        public class Query : IRequest<List<Activity>> { }
+        public class Query : IRequest<List<ActivityDto>> { }
 
-        public class Handler : IRequestHandler<Query, List<Activity>>
+        public class Handler : IRequestHandler<Query, List<ActivityDto>>
         {
             private readonly DataContext _context;
+            private readonly IMapper _mapper;
 
-            public Handler(DataContext context)
+            public Handler(DataContext context,IMapper mapper)
             {
                 _context = context;
+                _mapper = mapper;
             }
-            public async Task<List<Activity>> Handle(Query request, CancellationToken cancellationToken)
-            {
-                var activites = await _context.Activities.ToListAsync();
-                return activites;
+            public async Task<List<ActivityDto>> Handle(Query request, CancellationToken cancellationToken)
+            { 
+                var activites = await _context.Activities
+                   // .Include(x=>x.UserActivities)
+                  //  .ThenInclude(x=>x.AppUser)
+                    .ToListAsync();
+                return _mapper.Map<List<Activity>,List<ActivityDto>>(activites);
             }
         }
 

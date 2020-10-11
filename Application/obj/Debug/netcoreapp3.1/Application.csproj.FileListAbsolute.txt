@@ -1,0 +1,17 @@
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.json
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.dev.json
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Persistence.dll
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\bin\Debug\netcoreapp3.1\Persistence.pdb
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netcoreapp3.1\Application.dll
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netcoreapp3.1\Application.pdb
+C:\Users\Αντώνης\Desktop\WebDebelopment\Lessons\Reactivities\Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
